@@ -57,7 +57,7 @@ public class SimpleViewPagerAdapter extends PagerAdapter {
       imageView.setImageResource(R.drawable.dummy_placeholder);
     }
 
-    imageView.setLayoutParams(new LinearLayout.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.WRAP_CONTENT));
+    imageView.setLayoutParams(new LinearLayout.LayoutParams(ViewPager.LayoutParams.MATCH_PARENT, ViewPager.LayoutParams.MATCH_PARENT));
 
     if (scaleType != null) {
       imageView.setScaleType(scaleType);
